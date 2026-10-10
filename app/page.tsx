@@ -112,6 +112,11 @@ export default function Home() {
         </section>
       </div>
 
+            <footer className="w" style={{ fontSize: 14, padding: "20px 20px 8px", opacity: 0.85 }}>
+        <a href="/mentions-legales" style={{ color: "#fff" }}>Mentions légales</a>{" · "}
+        <a href="/cgv" style={{ color: "#fff" }}>CGV</a>{" · "}
+        <a href="/confidentialite" style={{ color: "#fff" }}>Confidentialité</a>
+      </footer>
       <div className="bar">
         <a className="btn" href={LIEN_PAIEMENT}>Obtenir mon audit : 19 €</a>
       </div>
