@@ -3,7 +3,7 @@ import { Fraunces, DM_Sans } from "next/font/google";
 const titre = Fraunces({ subsets: ["latin"], display: "swap" });
 const texte = DM_Sans({ subsets: ["latin"], display: "swap" });
 
-const LIEN_PAIEMENT = "#"; // sera remplacé par le lien Stripe
+const LIEN_PAIEMENT = "https://buy.stripe.com/test_00weVfcn7ggKcI61picQU00";
 const EMAIL = "sorenroca@gmail.com";
 
 const lignes = [
